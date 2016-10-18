@@ -9,6 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
+        
+        self.window!.backgroundColor = UIColor.blackColor() // customize ur self
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
